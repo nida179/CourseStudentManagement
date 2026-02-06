@@ -23,9 +23,9 @@ void insertCourses(int CNo){
     } else {
         CNode *curr = clist; // traversing 
         while (curr->cnext != NULL){
-            curr = curr -> cnext; // traversing till we get bthe next NULL 
+            curr = curr -> cnext; // traversing till we get the next NULL 
         }
-        curr -> cnext = temp; // temp ko ham ne last value ma daal dia; // the value which bwe are inserting we will insert after traversing and then add it to the last
+        curr -> cnext = temp; //  we put temp at the last of the list
     }
 }
 void CourseOffered(){
@@ -113,11 +113,11 @@ void searchStudent(int SNo){
     }
 }
 void insertStudentToACourse(int CNo , int SNo){
-    CNode *Ccurr = clist; // Ccurr ko initialize kardia to traverse the course list, starts at the head of the list
+    CNode *Ccurr = clist; // Ccurr initialized to traverse the course list, starts at the head of the list
     while (Ccurr != NULL){
         // traversing through the course until finding one with the matching course CNo
         if(Ccurr -> CNo == CNo){
-            // student ko insert karna ha 
+            // inserting the student 
             SNode *temp = (SNode *)malloc(sizeof(SNode));
             temp -> SNo = SNo;
             temp -> snext = NULL;
@@ -306,4 +306,5 @@ int main(){
 
     searchStudent(1);
     return 0;
+
 }
