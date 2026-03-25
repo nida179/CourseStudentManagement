@@ -23,8 +23,8 @@ v                v               v
 v                v               v
 NULL            NULL             NULL
 
-##✨ Features
-### Course Management
+###✨ Features
+## Course Management
 - ➕ Enroll students in courses
 - 🚮 Remove students from specific courses
 - 🚮 Remove a student from all courses
@@ -37,8 +37,8 @@ NULL            NULL             NULL
 - **Data Structure** : Multi-Linked list
 - **Memory Management** : Dynamic allocation with malloc and free()
 
- ## 👩‍💻 Author
+ ### 👩‍💻 Author
  [Nida Hafeez]
 
- ## 🤝 Contributions
+ ### 🤝 Contributions
  Feel free to fork this project and submit pull requests for any improvements!
