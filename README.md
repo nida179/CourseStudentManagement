@@ -23,7 +23,7 @@ v                v               v
 v                v               v
 NULL            NULL             NULL
 
-###✨ Features
+
 ## Course Management
 - ➕ Enroll students in courses
 - 🚮 Remove students from specific courses
